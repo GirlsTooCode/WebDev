@@ -8,5 +8,6 @@
 
 ## Git
 
-* [Untitled](git/untitled.md)
+* [What is Git](git/untitled.md)
+* [Installing Git](git/installing-git.md)
 
