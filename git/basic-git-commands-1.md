@@ -4,16 +4,16 @@
 
 Initializes a local repository
 
-```text
-$ git init
+```bash
+git init
 ```
 
 ## git add
 
 Add a file to staging area
 
-```text
-$ git add <FILE_NAME>
+```bash
+git add <FILE_NAME>
 ```
 
 {% hint style="info" %}
@@ -22,24 +22,24 @@ Staging area is just a list that contains the files that would be committed when
 To add all files in the repository you can use the command below
 {% endhint %}
 
-```text
-$ git add .
+```bash
+git add .
 ```
 
 ## git status
 
 Check status of working tree
 
-```text
-$ git status
+```bash
+git status
 ```
 
 ## git commit
 
 Commit changes to local repository
 
-```text
-$ git commit -m '<COMMIT_MESSAGE>'
+```bash
+git commit -m '<COMMIT_MESSAGE>'
 ```
 
 {% hint style="info" %}
@@ -50,16 +50,16 @@ $ git commit -m '<COMMIT_MESSAGE>'
 
 Push local updates to remote repository
 
-```text
-$ git push
+```bash
+git push
 ```
 
 {% hint style="info" %}
 For local repositories that are connected to multiple repositories, you can specify the repository to push to
 {% endhint %}
 
-```text
-$ git push <REPO_NAME> <BRANCH>
+```bash
+git push <REPO_NAME> <BRANCH>
 ```
 
 {% hint style="info" %}
@@ -74,16 +74,16 @@ detailed description will be given in subsequent sections
 
 Pull latest updates from remote repositories
 
-```text
-$ git pull
+```bash
+git pull
 ```
 
 {% hint style="info" %}
 For remote repositories that are connected to multiple repositories, you can specify the branch to pull from
 {% endhint %}
 
-```text
-$ git pull <REPO_NAME> <BRANCH>
+```bash
+git pull <REPO_NAME> <BRANCH>
 ```
 
 {% hint style="info" %}
