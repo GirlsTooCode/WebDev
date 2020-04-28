@@ -2,10 +2,6 @@
 
 * [Welcome](README.md)
 
-## Getting Started
-
-* [Requirements](getting-started/requirements.md)
-
 ## Git
 
 * [What is Git](git/untitled.md)
