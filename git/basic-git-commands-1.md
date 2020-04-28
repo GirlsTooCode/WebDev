@@ -72,5 +72,25 @@ detailed description will be given in subsequent sections
 
 ## git pull
 
+Pull latest updates from remote repositories
 
+```text
+$ git pull
+```
+
+{% hint style="info" %}
+For remote repositories that are connected to multiple repositories, you can specify the branch to pull from
+{% endhint %}
+
+```text
+$ git pull <REPO_NAME> <BRANCH>
+```
+
+{% hint style="info" %}
+&lt;REPO\_NAME&gt; indicates the name of the remote repository being pulled from
+
+&lt;BRANCH&gt; indicates the branch of the remote repository being pulled from
+
+detailed description will be given in subsequent sections
+{% endhint %}
 
